@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 .logo {
     width: 30%;
     display: flex;
@@ -62,7 +61,6 @@
 
 .background{
   background: rgba(0, 0, 0, 0.7) url('../images/background.jpg') no-repeat;
-  
   background-size: cover;
   background-blend-mode: darken;
 }
@@ -114,28 +112,38 @@
 /*-----2nd section-----*/
 
 .about{
-    width: auto;
-    margin:auto;
-    text-align: left;
-    padding-top: 50px;
+    padding-top: 30px;
     margin-left: 50px;
+    
 }
 
 .bttn{
     padding: 5px 10px;
     margin: 7px 0;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 8px;
     background: none;
     color: black;
     cursor: pointer;
 }
+.button{
+    padding: 5px 10px;
+    margin: 7px 0;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    background: none;
+    color: black;
+    cursor: pointer;
+    margin-left: 40%;
+}
 
-
+.button a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);}
 
 .bttn a{
     text-decoration: none;
-    color: black;
+    color: rgb(252, 252, 252);
 
 }
 
@@ -143,7 +151,6 @@
     background-color: gainsboro ;
     background: rgba(0, 0, 0, 0.7) url('../images/contact2.jpg') no-repeat  ;
     color: white;
-   
     background-size: 1400px;
  
 }
@@ -152,10 +159,34 @@
     margin-left: 50px;
 }
 
+.font{
+    font-family: 'Pacifico', cursive;
+   margin-left: 43%;
+}
 
 .follow{
-    margin: 50px;
-    
+    color: white;
+    margin: 30px;
+    background-image: url("../images/download.jpg");
+    background-color: black;
+     }
+
+
+.j{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.details {
+    margin-left: 30%;
+    display: flex;
+    padding: 15px;
+    list-style: none;
+
+}
+
+.details li{
+    padding:20px;
 }
 
 
@@ -170,7 +201,64 @@
 }
 
 /*    Boxes     */
-.secLeft{
-    margin-left: 50px;}
+.hobbies{
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 15px;
+}
+.bod{
+    background-image: url(../images/bodybd.jpg);
+    background-blend-mode: normal;
+    background-size: cover;
+}
+.grid{
+   
+    margin-left: 8%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    grid-template-rows: auto auto auto auto;
+   background-image: url(../images/bodybd.jpg);
+ 
+}
+.imgs{
+    margin-left: 10%;
+    border-radius: 4px;
+
+}
+
+.allimg{
+    margin-left: 15%;
+    border-color: black;
+    border-radius: 4px;
+}
+.allimgs{
+    margin-left: 30%;
+    border-radius: 4px;
+
+}
+.b{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-left: 8%;
+}
+.title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 40%;
+}
+.box{ 
+    border-radius: 15px;
+    width:75%;
+    height:80%;
+    padding:30px;
+    background-image: url(../images/box.png) ;
+    background-size: cover;
+    box-shadow:0 0 4px rgb(54, 53, 53);
+    justify-content: center;
+    align-items: center; 
+   
+
+}
 
  
